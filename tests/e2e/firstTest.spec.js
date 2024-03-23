@@ -1,4 +1,4 @@
-import { test } from "@playwright/test";
+import { test, expect } from "@playwright/test";
 
 test.describe("Fist tests", () => {
   test("go to node.js page", async ({ page }) => {
